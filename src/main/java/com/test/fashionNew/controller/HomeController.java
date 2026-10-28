@@ -11,4 +11,8 @@ public class HomeController {
 		return "index.html";
 	}
 	
+	@GetMapping("/comingsoon")
+	public String comingsoon() {
+		return "coming.html";
+	}
 }
