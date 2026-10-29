@@ -15,4 +15,14 @@ public class HomeController {
 	public String comingsoon() {
 		return "coming.html";
 	}
+	
+	@GetMapping("/gallery")
+	public String gallery() {
+		return "gallery.html";
+	}
+	
+	@GetMapping("/contactUs")
+	public String contactUs() {
+		return "contactus.html";
+	}
 }

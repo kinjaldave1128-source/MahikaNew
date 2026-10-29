@@ -15,8 +15,8 @@
 		
          <nav id="main-nav" class="main-nav" aria-label="Main" align="right">
 		    <a href="/" class="active" aria-current="page">Home</a>
-		    <a href="#galleryDiv">Gallery</a>
-		    <a href="/comingsoon">Contact Us</a>
+		    <a href="/gallery">Gallery</a>
+		    <a href="/contactUs">Contact Us</a>
 		    <a href="/comingsoon" class="bag">Bag (0)</a>
 		  </nav>
 		</header>
@@ -30,53 +30,71 @@
 				<p class="vision-text">Because every woman is a universe, and every universe holds the power to shape what comes next.</p>
 				<p class="vision-text">Mahika Label — A Universe of Elegance.</p>
 			</div>
-			<div id="galleryDiv">
-		    <h2 class="vision-text">Gallery</h2>
-		    <ul class="tiles">
-		      <li class="tile">
-		        <a href="#"><figure>
-		          <img src="/images/products/product1.jpeg" alt="" loading="lazy">
-		          <figcaption>Ready to wear saree</figcaption>
-		        </figure></a>
-		      </li>
-		      <li class="tile">
-		        <a href="#"><figure>
-		          <img src="/images/products/product2.jpeg" alt="Linen shirt on a hanger" loading="lazy">
-		          <figcaption>Ready to wear saree</figcaption>
-		        </figure></a>
-		      </li>
-		      <li class="tile">
-		        <a href="#"><figure>
-		          <img src="/images/products/product3.jpeg" alt="Silk skirt close-up" loading="lazy">
-		          <figcaption>Ready to wear saree</figcaption>
-		        </figure></a>
-		      </li>
-		      <li class="tile tall">
-		        <a href="#"><figure>
-		          <img src="/images/products/product4.jpeg" alt="Quilted jacket on a rail" loading="lazy">
-		          <figcaption>Ready to wear saree</figcaption>
-		        </figure></a>
-		      </li>
-		      <li class="tile">
-		        <a href="#"><figure>
-		          <img src="/images/products/product5.jpeg" alt="Folded knitwear stack" loading="lazy">
-		          <figcaption>Ready to wear saree</figcaption>
-		        </figure></a>
-		      </li>
-		      <li class="tile">
-		        <a href="#"><figure>
-		          <img src="/images/products/product9.jpeg" alt="Shop window display" loading="lazy">
-		          <figcaption>Ready to wear saree</figcaption>
-		        </figure></a>
-		      </li>
-		      <li class="tile">
-		        <a href="#"><figure>
-		          <img src="/images/products/product11.jpeg" alt="Fabric swatches" loading="lazy">
-		          <figcaption>Ready to wear saree</figcaption>
-		        </figure></a>
-		      </li>
-		    </ul>
-		    </div>
-  </main>
+			
+		    <div>
+		    	<ul class="tiles">
+			      <li class="tile">
+			        <a href="#" id="openLink1" role="button" class="saree-link"><figure>
+			          <img src="/images/products/mahika1.jpeg" alt="Pre-drapped Saree" loading="lazy">
+			          <figcaption>View Details</figcaption>
+			        </figure></a>
+			      </li>
+			      <li class="tile">
+			        <a href="#" id="openLink2" role="button" class="saree-link"><figure>
+			          <img src="/images/products/mahika2.jpeg" alt="Pre-drapped Saree" loading="lazy">
+			          <figcaption>View Details</figcaption>
+			        </figure></a>
+			      </li>
+		    	</ul>
+			</div>
+
+		<!-- The Elegant Saree Dialog -->
+			<dialog id="sareeDialog1">
+			  <div class="dialog-header">
+			    <h2>Mahika Label Ready-to-Wear Designer Saree</h2>
+			  </div>
+			  
+			  <div class="dialog-body">
+			    <ul class="specs-list">
+			      <li><strong>Brand:</strong> Mahika Label</li>
+			      <li><strong>Color:</strong> Elegant lavender / lilac / dusty purple shade</li>
+			      <li><strong>Style:</strong> Beautiful ready-to-use, pre-draped saree designed for hassle-free wear and a stunning, graceful fall.</li>
+			      <li><strong>Blouse:</strong> Comes with a stitched designer blouse that can be easily altered to your precise size.</li>
+			      <li><strong>Fabric:</strong> Crap silk with bits work and ready to wear saree necklace blouse.</li>
+			      <li><strong>Work:</strong> Features exquisite hand embroidery, intricate detailing, and multi-colored stone accents on the borders and pallu, 
+			      								making it an ideal choice for weddings, receptions, and festive celebrations.</li>
+			    </ul>
+			  </div>
+			
+			  <div class="dialog-footer">
+			    <!-- Built-in form closing for the close/action buttons -->
+			      <button id="closeBtn1" class="btn">Close</button>
+			  </div>
+			</dialog>
+			<dialog id="sareeDialog2">
+			  <div class="dialog-header">
+			    <h2>Mahika Label Ready-to-Wear Designer Saree</h2>
+			  </div>
+			  
+			  <div class="dialog-body">
+			    <ul class="specs-list">
+			       <li><strong>Brand:</strong> Mahika Label</li>
+			       <li><strong>Price:</strong> 349AED</li>
+			      <li><strong>Color:</strong> Sophisticated champagne gold / metallic bronze shade with warm undertones</li>
+			      <li><strong>Style:</strong> Beautiful ready-to-wear, pre-draped saree designed for hassle-free wear and a sleek, effortless drape.</li>
+			      <li><strong>Blouse:</strong> Features a chic halter-neck / necklace style embroidered blouse adorned with intricate beads work, pearls, and colorful stone highlights.</li>
+			      <li><strong>Fabric:</strong> Crap silk with bits work and ready to wear saree necklace blouse.</li>
+			      <li><strong>Work:</strong> Detailed beads work with subtle stone embellishments on the neckline and pallu border, making it an ideal choice for day events, cocktail parties,
+			      							 and festive celebrations.</li>
+			    </ul>
+			  </div>
+			
+			  <div class="dialog-footer">
+			    <!-- Built-in form closing for the close/action buttons -->
+			      <button id="closeBtn2" class="btn">Close</button>
+			  </div>
+			</dialog>
+  		</main>
 	</body>
+	 <script src="script.js" defer></script>
 </html>
